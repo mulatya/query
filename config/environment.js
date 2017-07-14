@@ -17,6 +17,13 @@ module.exports = function(environment) {
         Date: false
       }
     },
+    // Initialize Firebase
+  firebase : {
+    apiKey: "AIzaSyC7gNsYNbyA_GJDaVREgoK1o4a9r6dpPwQ",
+    authDomain: "query-cc968.firebaseapp.com",
+    databaseURL: "https://query-cc968.firebaseio.com",
+    projectId: "query-cc968",
+  };
 
     APP: {
       // Here you can pass flags/options to your application instance
