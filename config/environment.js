@@ -23,7 +23,9 @@ module.exports = function(environment) {
     authDomain: "query-cc968.firebaseapp.com",
     databaseURL: "https://query-cc968.firebaseio.com",
     projectId: "query-cc968",
-  };
+    storageBucket: "query-cc968.appspot.com",
+    messagingSenderId: "681596155030"
+  },
 
     APP: {
       // Here you can pass flags/options to your application instance

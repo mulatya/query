@@ -3,7 +3,7 @@ import Ember from 'ember';
 // var questions = [{
 //   id: 1,
 //   author: "Sugar spicy",
-//   question: "lodid bbvw bwunvw buiwv?",
+//   questio: "lodid bbvw bwunvw buiwv?",
 // }, {
 //   id: 2,
 //   author: "Mike TV",
@@ -21,4 +21,12 @@ export default Ember.Route.extend({
   model() {
     return this.store.findAll('question');
   },
+
+  actions: {
+   saveQuestion3(params) {
+     var newQuestion = this.store.createRecord('question', params);
+     newQuestion.save();
+     this.transitionTo('index');
+   }
+}
 });

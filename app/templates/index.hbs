@@ -4,11 +4,11 @@ We hope you find exactly what you're looking for in a place to stay.
 
 <ul>
   {{#each model as |question|}}
-     <li>{{question.author}}</li>
-       And my Question is....
-       <li>{{question.questio}}</li>
+     {{question-tile question=question}}
   {{/each}}
 </ul>
+{{new-question saveQuestion2="saveQuestion3"}}
+
 
 {{#link-to 'about'}}About{{/link-to}}
 {{#link-to 'contact'}}Click here to contact us.{{/link-to}}
