@@ -1,3 +1,8 @@
 <li>{{question.author}}</li>
   And my Question is....
   <li>{{question.question}}</li>
+
+  <li>
+    {{#link-to 'question' question.id}}{{question.author}}'s {{question.question}} {{/link-to}}
+
+  </li>
