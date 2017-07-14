@@ -1,0 +1,16 @@
+{{#carousel-container transition-interval=400}}
+  {{#carousel-body}}
+      <ul>
+        {{#each model as |story|}}
+          {{story-tile story=story}}
+        {{/each}}
+      </ul>
+  {{/carousel-body}}
+
+  {{#carousel-arrow direction="left" tagName="button"}}
+      Slide Left
+    {{/carousel-arrow}}
+    {{#carousel-arrow direction="right" tagName="button"}}
+      Slide Right
+    {{/carousel-arrow}}
+{{/carousel-container}}
