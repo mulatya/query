@@ -2,6 +2,10 @@
   And my Question is....
   <li>{{question.question}}</li> -->
 
-  <li>
-    <strong>Author</strong>: {{#link-to 'question' question.id}}{{question.author}}{{/link-to}}{{update-question question=question update="update"}}
-  </li>
+<li>
+  <strong>Author</strong>: {{question.author}}
+</li>
+<li>
+  <strong>Question</strong>:
+  {{#link-to 'question' question.id}}{{question.question}}{{/link-to}}{{update-question question=question update="update"}}
+</li>
