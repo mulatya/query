@@ -1,25 +1,17 @@
-<h1> Welcome to questions </h1>
+<h1> Welcome to Questionaire</h1>
 
-We hope you find exactly what you're looking for in a place to stay.
+We hope you find your answer
 
 <ul>
+  <div class = "row">
+    <div class = "col-md-3">
   {{#each model.questions as |question|}}
     {{question-tile question=question update="update" destroyQuestion="destroyQuestion"}}
   {{/each}}
+</div>
+</div>
 </ul>
 {{new-question saveQuestion2="saveQuestion3"}}
-
-<h2> All answers </h2>
-
-<ul>
-  {{#each model.answers as |answer|}}
-    <li><strong>{{answer.athuor}}</strong></li>
-      <li>{{answer.author}}</li>
-  {{/each}}
-</ul>
-
-{{new-answer saveAnswer="saveAnswer"}}
-
 
 
 {{#link-to 'about'}}About{{/link-to}}

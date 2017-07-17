@@ -2,17 +2,13 @@
 <br>
 {{question.author}}
 <br>
-<strong>Question</strong>
+<strong>This is my question</strong>
 <br>
       {{question.question}}
 <br>
-
-
-<!-- <h2> Reviews </h2>
+<h2> Answers </h2>
 <ul>
-  {{#each question.reviews as |review|}}
-    {{review-tile review=review destroyReview="destroyReview"}}
+  {{#each question.answers as |answer|}}
+    {{answer-tile answer=answer}}
   {{/each}}
 </ul>
-
-<button {{action 'delete' question}}>Delete</button> -->

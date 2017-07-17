@@ -1,24 +1,18 @@
-{"questions": [{
-  "id": "0",
-  "author": "Sugar spicy",
-  "question": "lodid bbvw bwunvw buiwv?"
-}, {
-  "id": "1",
-  "author": "Mike TV",
-  "question": "nreinbi JNION d?"
-
-}, {
-  "id": "2",
-  "author": "Red May",
-  "question": "Why do I love staring at fish so much?"
-
-}],
-"answers": [{
-    "author": "Mulatya",
-    "answer": "Ask someone who cares"
+{
+  "questions": [{
+    "id": "0",
+    "author": "Sugar spicy",
+    "question": "Why do people like hugging dogs?"
   }, {
-    "author": "Malusi",
-    "answer": "wish we knew weirdo"
+    "id": "1",
+    "author": "Crazy Mike",
+    "question": "Could someone direct me to this link?"
+
+  }, {
+    "id": "2",
+    "author": "Red May",
+    "question": "Why do I love staring at fish so much?"
+
   }]
-}
+
 }
